@@ -13,7 +13,7 @@ class_desc = {
     2:'sushi, a staple rice dish of Japanese cuisine, consisting of cooked rice \nflavoured with vinegar and a variety of vegetable, egg, or raw seafood garnishes and served cold.'
 }
 
-df = pd.read_csv('nutrients.csv')
+df = pd.read_csv("nutrients.csv")
 
 from torch.nn.modules.conv import Conv2d
 class FoodClassification(nn.Module):
@@ -50,7 +50,7 @@ class FoodClassification(nn.Module):
 torch.manual_seed(42)
 model = FoodClassification()
 
-model.load_state_dict(torch.load('prototype12.pth',map_location=torch.device('cpu')))
+model.load_state_dict(torch.load('trained Models/prototype12.pth',map_location=torch.device('cpu')))
 
 transform = transforms.Compose([
     transforms.Resize(size=(64,64)),
