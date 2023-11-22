@@ -7,7 +7,7 @@ A sophisticated food prediction model that leverages YOLOv5 for advanced food de
 - [Folder Structure](#folder-structure)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Advanced Food Prediction](#advanced-food-prediction)
+- [Advanced Food Prediction](https://github.com/amith7025/food-prediction-model/tree/main/advanced%20food%20detection%20using%20yolov5)
 - [Food Prediction](#food-prediction)
 - [Contributing](#contributing)
 - [License](#license)
